@@ -1,0 +1,626 @@
+/*{outline: 1px solid orange;}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Verdana", sans-serif;
+    color: #000000;
+    
+    background-color: #222222;
+}
+
+
+.site-header {
+    background-color: #222222;
+   
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: auto;
+    
+}
+
+.container {
+    width: 1500px;
+    margin: auto;
+    padding: 0;
+}
+
+.odin{
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: auto;
+}
+
+.site-header {
+  /*  background-color: #222222;*/
+    color: #ffffff;
+}
+
+.site-header .container {
+    height: 500px;  /*а не 400 или 700рх?*/
+    padding-top: 50px;
+    padding-bottom: 110px;
+    
+    
+    background-image: url("../img/moon-rocket.png");
+    background-repeat: no-repeat;
+    background-position: 560px 135px;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 95px;
+    margin-top: -50px;
+    margin-left: -10px;
+    width: 1550px;
+    position: fixed;
+    background-color: #222222;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 60px;
+    }
+.contacts-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35%;
+    margin-right: 2%;
+    justify-content: end;
+    width: auto;
+    
+    list-style: none;
+    
+    margin-top: 20px;
+}
+.site-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-left: 1%;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.site-menu a {
+    display: block;
+    /*margin-right: 40px;*/
+    
+    font-size: 14px;
+    text-decoration: none;
+    color: #d4d4d4;
+}
+
+.site-menu a:hover {
+    color: white;
+}
+
+.site-menu a:active {
+    color: #ccc;
+}
+
+.site-menu li {
+    margin-left: 50px;
+}
+
+
+.contacts-menu a{
+    display: block;
+    margin-right: 10px;
+    
+    font-size: 14px;
+    text-decoration: none;
+    color: #d4d4d4;
+}
+.contacts-menu a:hover {
+    color: white;
+}
+
+.contacts-menu a:active {
+    color: #ccc;
+}
+
+.icon icon-mail{
+    padding-left: 50px;
+}
+
+.contacts-menu li {
+    margin-left: 20px;
+    
+}
+
+.contacts-menu .icon {
+    display: block;
+    width: 17px;
+    height: 17px;
+}
+
+.contacts-menu .icon-mail {
+    background-image: url("../img/mail-icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+   /* margin-right: 20px; */
+    
+}
+
+.contacts-menu .icon-phone {
+    background-image: url("../img/icon-phone.png");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    width: 300px;   /*а не 320 рх*/
+    padding-left: 120px;
+    margin-top: 150px;
+    
+    
+}
+
+.about-us .one .oneone h1{
+    font-size: 65px;
+}
+
+.about-us .one .oneone h3{
+    font-size: 20px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    padding-left: 120px;
+    padding-right: 220px;
+    margin-right: auto;
+}
+
+.about-us .one{
+    display: flex;
+}
+
+.twotwo{
+    margin-left: 300px;
+    width: 600px;
+    
+    
+}
+
+.about-us h1{
+    margin: 0;
+    margin-bottom: 50px;
+    /*margin-top: 70px;*/
+    
+    padding-left: 5px;
+    
+    font-family:"Courier New", monospace, bold;
+    font-size: 45px;
+    line-height: 50px;
+    color: white;
+}
+
+.about-us p{
+   /* padding: 0;*/
+    margin: 0;
+    margin-bottom: 50px;
+    padding-left: 5px
+}
+
+
+.stages{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stages-element{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    height: 370px;
+}
+
+.stages-element h3{
+    width: auto;
+    height: 100px;
+    vertical-align: middle;
+    display: table-cell;
+}
+.column-one h3{
+    width: 200px;
+}
+.column-five h3{
+    width: 400px;
+}
+.stages-element p{
+    padding-top: 20px;
+}
+
+.column-one{
+    margin-left: 5px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+    background-color: #ecf3f3;
+    border-radius: 10px;
+}
+.column-two{
+    margin-left: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: #ecf3f3;
+    border-radius: 10px;
+}
+.column-three{
+    margin-left: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: #ecf3f3;
+    border-radius: 10px;
+}
+.column-four{
+    margin-left: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: #ecf3f3;
+    border-radius: 10px;
+}
+.column-five{
+    margin-left: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: #ecf3f3;
+    border-radius: 10px;
+}
+.column-six{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: #ecf3f3;
+    border-radius: 10px;
+}
+
+.column-one h2{
+    margin-bottom: -5px;
+}
+.column-two h2{
+    margin-bottom: -5px;
+}
+.column-three h2{
+    margin-bottom: -5px;
+}
+.column-four h2{
+    margin-bottom: -5px;
+}
+.column-five h2{
+    margin-bottom: -5px;
+}
+.column-six h2{
+    margin-bottom: -5px;
+}
+
+.columns-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.columns-container a {
+    color: #d4d4d4;
+}
+.columns-container a:hover {
+    color: white;
+}
+.columns-container a:active {
+    color: #ccc;
+}
+
+.columns-container .one-column {
+    display: flex;
+    flex-direction: row;
+    
+    height: 300px;
+    margin-right: 100px;
+    
+    margin-left: 50px; 
+}
+
+.columns-container .one-column h1{
+    width: 1200px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-right: 20px;
+    
+    background-color: dimgray;
+    border-radius: 30px;
+    color: #eee;
+}
+
+.columns-container .one-column h4{
+    
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    
+    background-color: dimgray;
+    border-radius: 30px;
+    color: #eee;
+}
+
+.columns-container .two-column {
+    display: flex;
+    flex-direction: row;
+    
+    height: 430px;
+    margin-right: 100px;
+    
+    margin-left: 50px; 
+}
+
+.columns-container .two-column h1{
+    width: 1200px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+    
+    background-color: dimgray;
+    border-radius: 30px;
+    color: #eee;
+}
+
+.columns-container .two-column h4{
+    
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: dimgray;
+    border-radius: 30px;
+    color: #eee;
+}
+
+.moon-vacation {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    
+    color: #131313;
+}
+
+.moon-vacation .lead {
+    margin-bottom: 50px;
+    margin-top: 0;
+    
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Courier New", monospace;
+}
+
+.recommendations {
+    padding-top: 20px;
+    padding-bottom: 55px;
+}
+
+.recommendations h3 {
+    margin-top: 0;
+    margin-bottom: 35px;
+    
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Courier New", monospace;
+}
+
+.recommendations-list {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    
+    list-style: none;
+}
+
+.recommendations-list li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.site-footer {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    color: #ffffff;
+    background-color: #131313;
+}
+
+.footer-columns-container {
+    display: flex;
+    width: 1000px;
+    margin-left: -10px;
+    /*flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 56px; */
+}
+
+.footer-columns-container .left-column{
+    display: flex;
+    flex-direction: column;
+    
+    width: 180px;
+    margin-right: 100px;
+}
+
+.footer-columns-container .right-column {
+    width: 720px;
+    padding-top: 35px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+/*.company-title {
+    margin-left: 16px;
+}*/
+
+.logo-container .logo {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.logo-container p {
+    font-size: 14px;
+}
+
+.copyrights {
+    margin-top: auto;
+    color: #555555;
+}
+
+.footer-menu {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.footer-menu > li {
+  width: 180px;
+  margin-right: 60px;
+}
+
+.footer-submenu-title {
+  display: block;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+    
+  border-bottom: 1px solid #555555;
+
+}
+
+.footer-submenu {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.footer-submenu > li {
+  margin-bottom: 20px;
+}
+
+.footer-submenu a {
+  text-decoration: none;
+  color: #888888;
+}
+
+
+    .footer-nav a:hover {
+      color: white;
+    }
+
+    .footer-nav a:active {
+      color: #cccccc;
+    }
+
+
+.site-header{
+    background-image: url(../img/%D0%BA%D1%83%D1%85%D0%BD%D1%8F_4.jpg);
+    background-size: auto;
+    background-blend-mode: overlay;
+}
+
+
+.features .container {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 60px;
+   
+    height: 350px;
+
+    color: white;
+    
+    background-image: url(../img/imgonline-com-ua-Blur-gY0pmGWLDD2iEZB0.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 22px;
+    
+}
+.features .container .portfolio{
+    width: 400px;
+    height: 75px;
+    margin-left: 550px;
+    margin-top: 150px;
+    padding-top: 35px;
+    
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    text-decoration-style: solid;
+    
+    background-color: aliceblue;
+    opacity: 60%;
+    border-radius: 40px;
+}
+.features .container .portfolio:hover{
+    
+    background-color: aliceblue;
+    opacity: 80%;
+    border-radius: 40px;
+}
+
+.features .container a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.features .container a:hover {
+    color: black;
+}
+
+.features .container a:active {
+    color: #ccc;
+}
+
+
+
